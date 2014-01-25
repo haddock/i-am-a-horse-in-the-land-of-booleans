@@ -5,7 +5,7 @@
   (if x true false))
 
 (defn abs [x]
-  ":(")
+  (if (< 0 x) x (* x -1)))
 
 (defn divides? [divisor n]
   ":(")
